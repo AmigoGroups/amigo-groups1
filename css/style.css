@@ -15,6 +15,7 @@ body {
     margin: 0 auto;
 }
 
+/* Header css styling the <navbar> css styling for every page contain Home,Products, Teams and Contact-Us <Navbar> This is the <Header> that we have mentioned in the top of the page The <Navbar> it is consisting up with Home, Teams, Products */
 .header {
     position: -webkit-sticky;
     position: sticky;
@@ -32,12 +33,12 @@ body {
     justify-content: space-between;
     margin: 6px;
     margin-left: -22px;
-    padding: 8px 0;
+    padding: 1px -2px;
 }
 
 .header__logo img {
     filter: brightness(1.22);
-    margin: 10px;
+    margin: -29px;
     padding: 5px;
 }
 
@@ -71,6 +72,27 @@ nav {
     border-bottom-color: #233dff;
 }
 
+/* The header css styling except the css styling for contact-us <navbar> ended here.. */
+
+
+/* The css styling for the "contact-us" <Navbar> has been mentioned here.. */
+
+.animatedIconButton__text.active {
+  position: relative;
+}
+
+.animatedIconButton__text.active::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #233dff; /* Change the color as needed */
+  transition: width 0.3s ease;
+}
+
+
 .animatedIconButton, .arrowLink {
     font-weight: 800;
     text-transform: uppercase;
@@ -100,8 +122,8 @@ nav {
 
 .animatedIconButton__icon img{
     position: absolute;
-    margin-top: -19px;
-    margin-left: -2px;
+    margin-top: -1px;
+    margin-left: -111px;
     filter: brightness(1.17);
 }
 
@@ -115,8 +137,11 @@ nav {
     vertical-align: middle;
     width: 130px;
     height: 44px;
-    margin: 1px;
-    padding: 13px;
+    margin: -81px;
+    margin-top: -69px;
+    margin-left: -127px;
+    
+    padding: 28px;
     white-space: nowrap;/* Align text and icon vertically */
 }
 
@@ -136,12 +161,10 @@ nav {
      /* Adjust as needed */
 }
 
-.contact-page a.animatedIconButton__bg {
-    border: 2px solid blue;
-}
+/* We ended here the css styling for the contact-us <navbar> */
 /*Header section ends here and now we go for respomsiveness */
 
-/* Responsive Styles */
+/* Responsive Styles for the Header of every page we have used the Media queries for giving the responsiveness for the Mobile-friendly-ness devices. */
 @media screen and (max-width: 768px) {
     .header__main {
         flex-direction: column;
@@ -199,7 +222,7 @@ nav {
 
 /* Header section responsiveness ends here/*
 
-/* Media queries for responsiveness */
+/* Container we have used inside the <div> where all the content has been mentioned to define different pages of this website Media queries for responsiveness */
 @media screen and (min-width: 576px) {
     .container {
         max-width: 95%;
@@ -231,7 +254,7 @@ nav {
         padding: 96px 0 76px;
     }
 }
-
+/* The products page <Navbar> Products media responsiveness styling begins here. */
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1140px;
@@ -250,7 +273,9 @@ nav {
 
 }
 
+/* we have ended here the responsiveness for the Products page <Navbar> */
 
+/* The css styling for the Products <Navabr> this text center we have used the align the contents in the center it's contain the <Headings> Products one and the sub-heading that has been mentioned just below of it's */
 
 .text-center {
     text-align: center;
@@ -259,7 +284,7 @@ nav {
 
 
 
-/* Products styling */
+/* Products styling Here the animation effects has been used to define the  */
 .products-text{
     display: inline-block;
     position: relative;
@@ -270,6 +295,7 @@ nav {
     
 }
 
+/* This css styling has been used for the Customer reviews section which has been mentioned inside the Products page of the company website */
 .section.testimonial {
     margin-left: -39px;
     margin-top: 258px;
@@ -287,7 +313,7 @@ nav {
 .h4{
     font-size: 1.63rem;
 }
-
+/* The title <Heading> to define the Products, Amigo Trends and Amigo Story, It's css styling has been mentioned here.. */
 .content-title {
     font-size: 42px;
     line-height: 50px;
@@ -487,7 +513,7 @@ color: #555;
 /* Page banner section starts from here */
 .page__banner {
     padding: 30px 0 50px;
-    margin-top: -25px;
+    margin-top: -52px;
 }
 
 .page__banner h1 {
@@ -541,6 +567,7 @@ color: #555;
 }
 
 .page__banner-content ol, .page__banner-content p, .page__banner-content ul {
+    margin-top: -374px;
     font-size: 1.32rem;
     font-weight: 300;
 }
@@ -822,6 +849,7 @@ img {
 /* Animation for color change */
 .page__banner-slogan .innovation {
     animation: colorChange 2s infinite;
+    padding: 4px -5px;
 }
 
 
@@ -838,6 +866,7 @@ img {
 /* Animation for wide effect */
 .page__banner-slogan .your-trust {
     animation: autoWrite 2s forwards;
+    padding: 2px -6px;
 }
 
 .content-left {
@@ -1417,9 +1446,9 @@ li {
 
 .lightBox__image {
     position: relative;
-    margin-left: 48px;
+    margin-left: 265px;
     width: 363px;
-    height: 180px;
+    height: 153px;
     border-top-left-radius: 30px;
     overflow: hidden;
     
@@ -1427,17 +1456,18 @@ li {
 
 
 .lightBox__name {
-    margin-left: 50px;
+    margin-left: 261px;
     font-size: 23px;
     line-height: 31px;
     font-weight: 700;
+    white-space: nowrap;
     display: block;
 }
 
 .lightBox__post {
     font-size: 1.125rem;
-    margin-left: 48px;
-    line-height: 26px;
+    margin-left: 261px;
+    line-height: 36px;
     font-weight: 400;
     color: #333;
     margin-bottom: 0.75rem;
