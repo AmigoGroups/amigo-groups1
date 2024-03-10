@@ -38,8 +38,9 @@ body {
 
 .header__logo img {
     filter: brightness(1.22);
-    margin: -29px;
-    padding: 5px;
+    margin: -54px;
+    margin-top: -28px;
+    padding: 6px;
 }
 
 nav {
@@ -277,9 +278,12 @@ nav {
 
 /* The css styling for the Products <Navabr> this text center we have used the align the contents in the center it's contain the <Headings> Products one and the sub-heading that has been mentioned just below of it's */
 
+
 .text-center {
+    margin-top: -23px;
+    padding: 2px 3px;
     text-align: center;
-    margin-left: -15px;
+    margin-left: -8px;
 }
 
 
@@ -297,9 +301,9 @@ nav {
 
 /* This css styling has been used for the Customer reviews section which has been mentioned inside the Products page of the company website */
 .section.testimonial {
-    margin-left: -39px;
-    margin-top: 258px;
-    margin-bottom: 85px; /* Adjust the margin as needed to create space between sections */
+    margin-left: 9px;
+    margin-top: 370px;
+    margin-bottom: 91px; /* Adjust the margin as needed to create space between sections */
 }
 
 .section-title {
@@ -313,12 +317,39 @@ nav {
 .h4{
     font-size: 1.63rem;
 }
-/* The title <Heading> to define the Products, Amigo Trends and Amigo Story, It's css styling has been mentioned here.. */
-.content-title {
-    font-size: 42px;
-    line-height: 50px;
+/* The cards css styling has been defined here to describe the products of the Amigo Groups which includes Amigo Trends & Amigo Story */
+.card-title{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: -66px;
+    margin-left: -52px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.card{
+    background-color: #f5f3f5;
+    width: 450px;
+    height: 340px;
+    padding: 5px;
+    margin-left: 130px;
+    margin-top: -47px;
+    border-top-left-radius: 61px;
+    border-top-right-radius: 61px;
+}
+
+.card-img-top{
+    padding: 8px;
+    width: 271px;
+    height: 210px;
+    margin-top: -37px;
+    margin-left: auto;
+    
+}
+
+.card-text{
+    padding-left: 11px;
+    margin-right: 15px;
+}
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
 }
@@ -1262,7 +1293,7 @@ li {
 /*Teams css styling */
 
 .page__about-banner {
-    padding: 119px 0;
+    padding: 25px 0;
 }
 
 .page__container-banner {
@@ -1287,8 +1318,8 @@ li {
     position: absolute;
     /* left: 30px; */
     right: 0;
-    top: 251px;
-    border-bottom-right-radius: 144px;
+    top: 154px;
+    border-bottom-right-radius: 133px;
     overflow: hidden;
 }
 
@@ -1343,6 +1374,8 @@ li {
     font-size: 21px;
 }
 
+
+
 .section__heading {
     font-weight: 600;
     text-transform: uppercase;
@@ -1357,13 +1390,14 @@ li {
     margin-bottom: 1.5rem!important;
 }
 
+/* We have put here  the css code styling for the <headings> Product of the <Products> <Navbar> */
 .section__title {
     /* justify-content: center; */
     font-size: 4rem;
-    line-height: 69px;
+    line-height: 62px;
     font-weight: 700;
     max-width: 890px;
-    margin-left: 199px;
+    margin-left: 79px;
 }
 
 .d-md-block{
@@ -1755,9 +1789,9 @@ button, input,  textarea {
 .company img {
     filter: brightness(1.22);
     position: relative;
-    margin: 126px;
+    margin: 136px;
     margin-top: -36px;
-    margin-left: -42px;
+    margin-left: -66px;
     padding: 5px;
     padding-left: 15px;
 }
@@ -1765,7 +1799,7 @@ button, input,  textarea {
 .footer .the-basic .copyright {
     clear: both; /* Ensure the copyright appears below the images */
     margin-top: 15px;
-    padding-top: 99px;
+    padding-top: 71px;
     font-size: 16px;
     font-weight: 500; /* Add margin to separate the copyright from the images */
 }
