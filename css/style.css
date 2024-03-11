@@ -79,22 +79,24 @@ nav {
 /* The css styling for the "contact-us" <Navbar> has been mentioned here.. */
 
 .animatedIconButton__text.active {
-  position: relative;
+    position: relative;
 }
 
 .animatedIconButton__text.active::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #233dff; /* Change the color as needed */
-  transition: width 0.3s ease;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #233dff;
+    /* Change the color as needed */
+    transition: width 0.3s ease;
 }
 
 
-.animatedIconButton, .arrowLink {
+.animatedIconButton,
+.arrowLink {
     font-weight: 800;
     text-transform: uppercase;
     position: relative;
@@ -103,7 +105,8 @@ nav {
     padding: 10px;
 }
 
-.animatedIconButton a, .arrowLink a {
+.animatedIconButton a,
+.arrowLink a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -111,17 +114,20 @@ nav {
     text-decoration: none;
 }
 
-.animatedIconButton__bg, .arrowLink__bg {
-    color: #233dff;  /* Text color */
+.animatedIconButton__bg,
+.arrowLink__bg {
+    color: #233dff;
+    /* Text color */
     padding: 26px 13px;
 }
 
-.animatedIconButton .animatedIconButton__icon, .arrowLink .animatedIconButton__icon {
+.animatedIconButton .animatedIconButton__icon,
+.arrowLink .animatedIconButton__icon {
     position: relative;
     padding: 2px;
 }
 
-.animatedIconButton__icon img{
+.animatedIconButton__icon img {
     position: absolute;
     margin-top: -1px;
     margin-left: -111px;
@@ -133,7 +139,10 @@ nav {
 }
 
 
-.animatedIconButton__bg .animatedIconButton__text, .animatedIconButton__bg .arrowLink__text, .arrowLink__bg .animatedIconButton__text, .arrowLink__bg .arrowLink__text {
+.animatedIconButton__bg .animatedIconButton__text,
+.animatedIconButton__bg .arrowLink__text,
+.arrowLink__bg .animatedIconButton__text,
+.arrowLink__bg .arrowLink__text {
     display: inline-flex;
     vertical-align: middle;
     width: 130px;
@@ -141,9 +150,10 @@ nav {
     margin: -81px;
     margin-top: -69px;
     margin-left: -127px;
-    
+
     padding: 28px;
-    white-space: nowrap;/* Align text and icon vertically */
+    white-space: nowrap;
+    /* Align text and icon vertically */
 }
 
 .animatedIconButton__text {
@@ -156,10 +166,11 @@ nav {
 }
 
 /* Remove background color and adjust padding for transparent background */
-.animatedIconButton__bg, .arrowLink__bg {
+.animatedIconButton__bg,
+.arrowLink__bg {
     background-color: transparent;
     padding: 0;
-     /* Adjust as needed */
+    /* Adjust as needed */
 }
 
 /* We ended here the css styling for the contact-us <navbar> */
@@ -174,7 +185,8 @@ nav {
 
     .listStyleNone {
         /* Adjust styles for smaller screens */
-        padding: 0; /* Remove default padding */
+        padding: 0;
+        /* Remove default padding */
     }
 
     nav {
@@ -183,14 +195,16 @@ nav {
     }
 
     .header__link {
-        padding: 8px 10px; /* Adjust padding as needed */
+        padding: 8px 10px;
+        /* Adjust padding as needed */
     }
 }
 
 /* Tablet Styles (min-width: 769px) and (max-width: 1024px) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .header__main {
-        margin: 15px; /* Adjust margin as needed */
+        margin: 15px;
+        /* Adjust margin as needed */
     }
 
     nav {
@@ -200,23 +214,27 @@ nav {
 
     .listStyleNone {
         /* Adjust styles for smaller screens */
-        padding: 0; /* Remove default padding */
+        padding: 0;
+        /* Remove default padding */
     }
 
     .header__link {
-        padding: 8px 10px; /* Adjust padding as needed */
+        padding: 8px 10px;
+        /* Adjust padding as needed */
     }
 }
 
 /* Desktop Styles (min-width: 1025px) */
 @media screen and (min-width: 1025px) {
     .header__main {
-        margin: 20px; /* Adjust margin as needed */
+        margin: 20px;
+        /* Adjust margin as needed */
     }
 
     .listStyleNone {
         /* Adjust styles for smaller screens */
-        padding: 0; /* Remove default padding */
+        padding: 0;
+        /* Remove default padding */
     }
 
 }
@@ -255,6 +273,7 @@ nav {
         padding: 96px 0 76px;
     }
 }
+
 /* The products page <Navbar> Products media responsiveness styling begins here. */
 @media screen and (min-width: 1200px) {
     .container {
@@ -266,7 +285,7 @@ nav {
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .container {
         width: 100%;
         max-width: 1140px;
@@ -289,21 +308,22 @@ nav {
 
 
 /* Products styling Here the animation effects has been used to define the  */
-.products-text{
+.products-text {
     display: inline-block;
     position: relative;
     margin-top: -60px;
     white-space: nowrap;
     animation: autoWrite 2s forwards;
-    
-    
+
+
 }
 
 /* This css styling has been used for the Customer reviews section which has been mentioned inside the Products page of the company website */
 .section.testimonial {
     margin-left: 9px;
-    margin-top: 370px;
-    margin-bottom: 91px; /* Adjust the margin as needed to create space between sections */
+    margin-top: 50px;
+    margin-bottom: 91px;
+    /* Adjust the margin as needed to create space between sections */
 }
 
 .section-title {
@@ -314,48 +334,82 @@ nav {
     color: #233dff;
 }
 
-.h4{
+.h4 {
     font-size: 1.63rem;
 }
+
 /* The cards css styling has been defined here to describe the products of the Amigo Groups which includes Amigo Trends & Amigo Story */
-.card-title{
+.card-title {
     font-size: 22px;
     font-weight: 400;
     margin-top: -66px;
-    margin-left: -52px;
+    margin-left: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.card{
+.card {
     background-color: #f5f3f5;
-    width: 450px;
-    height: 340px;
-    padding: 5px;
+    width: 18rem;
+    padding: 1rem 2rem;
     margin-left: 130px;
     margin-top: -47px;
-    border-top-left-radius: 61px;
-    border-top-right-radius: 61px;
+    border-radius: 12px;
+
 }
 
-.card-img-top{
-    padding: 8px;
+
+.card-img-top {
     width: 271px;
     height: 210px;
-    margin-top: -37px;
-    margin-left: auto;
-    
+    margin-top: -25px;
+    margin-left: -15px;
 }
 
-.card-text{
-    padding-left: 11px;
-    margin-right: 15px;
+/* Card 1 styling */
+
+.card1 {
+    width: 22rem;
+    padding: 1rem 2rem;
+    margin-left: 40rem;
+    margin-top: -22rem;
+    border-radius: 12px;
+    background-color: #f5f3f5;
 }
+
+.card1-img-top {
+    width: 150px;
+    height: 150px;
+    margin-top: -20px;
+    margin-left: auto;
+}
+
+.card1-title {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-hover {
+    transform: translateY(0) scale(1);
+    transition: transform 300ms ease-in-out;
+    backface-visibility: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-hover:hover {
+    transform: translateY(-6px) scale(1.05);
+}
+
+
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
 }
 
-.slick-slider .slick-track, .slick-slider .slick-list {
-      transform: translate3d(0, 0, 0);
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    transform: translate3d(0, 0, 0);
 }
 
 .slick-list {
@@ -381,7 +435,7 @@ nav {
     min-height: 1px;
 }
 
-.slick-slider{
+.slick-slider {
     position: relative;
     display: block;
     box-sizing: border-box;
@@ -417,25 +471,24 @@ nav {
     margin-left: 303px;
 }
 
-.counter{
+.counter {
     font-size: 2rem;
     font-weight: 800;
     color: #233dff;
 }
 
-.row.text-center h2{
-margin-bottom: 30px;
+.row.text-center h2 {
+    margin-bottom: 30px;
 }
 
-.row.text-center p{
-font-size: 18px;
-color: #555;
+.row.text-center p {
+    font-size: 18px;
+    color: #555;
 }
 
 
 @media only screen and (max-width: 412px) {
-    .col-wrap p
-    {
+    .col-wrap p {
         display: inline-block;
         padding-left: 55px;
         margin-top: 65px;
@@ -443,10 +496,11 @@ color: #555;
         padding-right: 20px;
         margin-left: px;
         margin-right: 20px;
-        white-space: nowrap; /* Adjust the padding value for mobile */
+        white-space: nowrap;
+        /* Adjust the padding value for mobile */
     }
 
-    .col-wrap1 p{
+    .col-wrap1 p {
         white-space: nowrap;
         padding-top: 65px;
         padding-left: 260px;
@@ -454,61 +508,63 @@ color: #555;
         margin-left: 2795px;
     }
 
-  
 
-   .icon-wrap img{
-    position: sticky;
-    margin-top: 245px;
-    padding-top: 85px;
-    
-   }
 
-   .icon-wrap1 img{
-    position: relative;
-    margin-top: -135px;
-    padding-top: 56px;
-    /* margin-right: -724px; */
-   }
+    .icon-wrap img {
+        position: sticky;
+        margin-top: 245px;
+        padding-top: 85px;
 
- .content__title{
-    margin-top: 150px;
-    margin-left: -5px;
-    padding-left: -20px;
-    padding-top: 90px;
- }
+    }
 
- .content1__title{
-    margin-top: 160px;
-    padding-top: 30px;
-    padding-right: 120px;
-    
-    margin-left: -75px;
- }
+    .icon-wrap1 img {
+        position: relative;
+        margin-top: -135px;
+        padding-top: 56px;
+        /* margin-right: -724px; */
+    }
 
-    .our-solution{
+    .content__title {
+        margin-top: 150px;
+        margin-left: -5px;
+        padding-left: -20px;
+        padding-top: 90px;
+    }
+
+    .content1__title {
+        margin-top: 160px;
+        padding-top: 30px;
+        padding-right: 120px;
+
+        margin-left: -75px;
+    }
+
+    .our-solution {
         position: absolute;
         padding: 10px;
     }
 
-    .bg-light.py-5{
+    .bg-light.py-5 {
         margin-left: -20px;
         padding-left: -5px;
     }
-  
 
- .section.testimonial{
-   padding-bottom: 35px;
- }
 
- .sub-companies, .company img{
-    margin-right: -143px;
- }
+    .section.testimonial {
+        padding-bottom: 35px;
+    }
 
-  
+    .sub-companies,
+    .company img {
+        margin-right: -143px;
+    }
+
+
 }
 
 
-.container, .container-fluid {
+.container,
+.container-fluid {
     padding-right: 1rem;
     padding-left: 1rem;
     margin-right: auto;
@@ -533,7 +589,7 @@ color: #555;
     margin-top: var(--gutter-y);
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .col-md-6 {
         flex: 0 0 auto;
         width: 50%;
@@ -591,13 +647,16 @@ color: #555;
 } */
 
 
-.page__banner-content--home p, .page__banner-content--home ul {
+.page__banner-content--home p,
+.page__banner-content--home ul {
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 32px;
 }
 
-.page__banner-content ol, .page__banner-content p, .page__banner-content ul {
+.page__banner-content ol,
+.page__banner-content p,
+.page__banner-content ul {
     margin-top: -374px;
     font-size: 1.32rem;
     font-weight: 300;
@@ -628,36 +687,48 @@ color: #555;
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 1200px) {
+
     /* Adjust styles for larger screens (Laptops and Desktops) */
     .your-trust,
     .innovation {
-        font-size: 20px; /* Update font size for larger screens */
+        font-size: 20px;
+        /* Update font size for larger screens */
     }
 }
 
 @media screen and (max-width: 992px) {
+
     /* Adjust styles for medium-sized screens (Tablets) */
     .your-trust,
     .innovation {
-        font-size: 18px; /* Update font size for tablets */
+        font-size: 18px;
+        /* Update font size for tablets */
     }
 }
 
 @media screen and (max-width: 768px) {
+
     /* Adjust styles for smaller screens (Mobile devices) */
     .your-trust,
     .innovation {
-        font-size: 16px; /* Update font size for smaller screens */
+        font-size: 16px;
+        /* Update font size for smaller screens */
     }
 }
 
 
 
-ol, p, ul {
+ol,
+p,
+ul {
     line-height: 21px;
 }
 
-h5, h6, ol, p, ul {
+h5,
+h6,
+ol,
+p,
+ul {
     font-size: 1rem;
 }
 
@@ -669,8 +740,9 @@ p {
     margin-inline-end: 0px;
 }
 
-.mt-5x, .my-5x {
-    margin-top: 1.25rem!important;
+.mt-5x,
+.my-5x {
+    margin-top: 1.25rem !important;
 }
 
 .d-flex {
@@ -690,8 +762,9 @@ p {
     text-transform: uppercase;
 }
 
-.mr-14x, .mx-14x {
-    margin-right: 3.5rem!important;
+.mr-14x,
+.mx-14x {
+    margin-right: 3.5rem !important;
 }
 
 .arrowLink a {
@@ -710,11 +783,11 @@ p {
     margin-right: 8px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .our-solution {
         font-size: 36px;
     }
-    
+
 }
 
 .our-solution {
@@ -725,6 +798,7 @@ p {
     margin-top: 20px;
     margin-bottom: 60px;
 }
+
 /*Products icon css code*/
 /* Products icon CSS code */
 
@@ -757,12 +831,15 @@ img {
 }
 
 @media (min-width: 992px) {
-    .h3, h3 {
+
+    .h3,
+    h3 {
         font-size: 18px;
     }
 }
 
-.h3, h3 {
+.h3,
+h3 {
     /* font-size: 20px; */
     line-height: 1.55;
     clear: both;
@@ -774,7 +851,8 @@ img {
     margin-top: -126px;
     margin-left: 49px;
     font-weight: 600;
-    margin-bottom: 0.25rem; /* Adjust margin as needed */
+    margin-bottom: 0.25rem;
+    /* Adjust margin as needed */
 }
 
 .content__desc {
@@ -785,13 +863,16 @@ img {
     margin-left: -2rem;
     margin-right: 39.97rem;
     /* Adjust margin as needed */
-    margin-bottom: 1rem; /* Adjust margin as needed */
+    margin-bottom: 1rem;
+    /* Adjust margin as needed */
 }
 
 /* Paragraph styling */
 .content__desc p {
-    margin-left: 7px; /* Reset default margin for paragraphs */
+    margin-left: 7px;
+    /* Reset default margin for paragraphs */
 }
+
 /* Image icon css code end here*/
 
 /*Second Image Icon description here */
@@ -801,11 +882,13 @@ img {
     position: relative;
     margin-top: -290px;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text within content */
+    align-items: center;
+    /* Center items horizontally */
+    text-align: center;
+    /* Center text within content */
 }
 
-.icon-wrap1{
+.icon-wrap1 {
     display: flex;
     position: absolute;
     margin-top: -33px;
@@ -813,10 +896,11 @@ img {
 }
 
 .content1 {
-    margin-top: 10px; /* Adjust the top margin as needed */
+    margin-top: 10px;
+    /* Adjust the top margin as needed */
 }
 
-.content1__title{
+.content1__title {
     display: flex;
     position: absolute;
     margin-top: 45px;
@@ -830,7 +914,8 @@ img {
     position: absolute;
     margin-top: 4.20rem;
     margin-left: 41.95rem;
-    margin-right: -1.03rem; /* Adjust the top margin as needed */
+    margin-right: -1.03rem;
+    /* Adjust the top margin as needed */
 }
 
 
@@ -840,8 +925,10 @@ img {
 
 
 .our-solution p {
-    font-weight: 310; /* Adjust the font-weight as needed */
-    font-size: 0.95em; /* Adjust the font-size as needed */
+    font-weight: 310;
+    /* Adjust the font-weight as needed */
+    font-size: 0.95em;
+    /* Adjust the font-size as needed */
 }
 
 .typed-wrap {
@@ -850,15 +937,19 @@ img {
     line-height: 1.31;
     padding: 0 6px;
     vertical-align: top;
-    font-weight: 310; /* Adjust the font-weight as needed */
-    font-size: 0.95em; /* Adjust the font-size as needed */
+    font-weight: 310;
+    /* Adjust the font-weight as needed */
+    font-size: 0.95em;
+    /* Adjust the font-size as needed */
 }
 
 
 .typed-wrap .typed {
-    display: inline-block; /* Display as inline-block for the typing effect */
+    display: inline-block;
+    /* Display as inline-block for the typing effect */
     overflow: hidden;
-    border-right: 3px solid #7350ff; /* You can adjust the cursor style */
+    border-right: 3px solid #7350ff;
+    /* You can adjust the cursor style */
     white-space: nowrap;
     animation: typing 3s steps(30, end), blink-cursor 0.7s infinite;
 }
@@ -886,9 +977,12 @@ img {
 
 
 @keyframes colorChange {
-    0%, 100% {
+
+    0%,
+    100% {
         color: #233dff;
     }
+
     50% {
         color: #000000;
     }
@@ -903,7 +997,7 @@ img {
 .content-left {
     display: inline-block;
     flex: 1;
-    
+
 }
 
 .page__banner-aside {
@@ -917,7 +1011,8 @@ img {
     position: relative;
     margin-top: -20.25rem;
     margin-bottom: 0.36rem;
-    flex: 1; /* Use flex to take remaining space */
+    flex: 1;
+    /* Use flex to take remaining space */
 }
 
 .page__banner-video-iframe-wrapper {
@@ -972,15 +1067,21 @@ img {
 }
 
 
-button, select {
+button,
+select {
     text-transform: none;
 }
 
-button, input {
+button,
+input {
     overflow: visible;
 }
 
-button, input, optgroup, select, textarea {
+button,
+input,
+optgroup,
+select,
+textarea {
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15;
@@ -994,7 +1095,7 @@ button, input, optgroup, select, textarea {
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     border: 0;
 }
 
@@ -1012,7 +1113,8 @@ button, input, optgroup, select, textarea {
 
 .paragraph_heading {
     position: relative;
-    margin-top: -21.93rem; /* Adjust the top margin as needed */
+    margin-top: -21.93rem;
+    /* Adjust the top margin as needed */
 }
 
 
@@ -1046,13 +1148,17 @@ button, input, optgroup, select, textarea {
     color: #233dff;
 }
 
-page__skills .page__sub-heading ol, .page__skills .page__sub-heading p, .page__skills .page__sub-heading ul {
+page__skills .page__sub-heading ol,
+.page__skills .page__sub-heading p,
+.page__skills .page__sub-heading ul {
     max-width: 928px;
     margin: 0 auto;
 }
 
-.page__sub-heading ol, .page__sub-heading p, .page__sub-heading ul {
-    font-size: 20px!important;
+.page__sub-heading ol,
+.page__sub-heading p,
+.page__sub-heading ul {
+    font-size: 20px !important;
     line-height: 28px;
 }
 
@@ -1060,7 +1166,7 @@ page__skills .page__sub-heading ol, .page__skills .page__sub-heading p, .page__s
     border-bottom: 1px solid #d9d9d9;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .position-sticky {
         top: 6.125rem;
     }
@@ -1084,15 +1190,18 @@ page__skills .page__sub-heading ol, .page__skills .page__sub-heading p, .page__s
     z-index: 4;
 }
 
-.perksAndBenefitsTab .react-tabs__tab-list, .skillsTab .react-tabs__tab-list {
+.perksAndBenefitsTab .react-tabs__tab-list,
+.skillsTab .react-tabs__tab-list {
     list-style: none;
 }
 
-.perksAndBenefitsTab__col-3, .skillsTab__col-3 {
+.perksAndBenefitsTab__col-3,
+.skillsTab__col-3 {
     max-width: 370px;
 }
 
-.perksAndBenefitsTab__col-title, .skillsTab__col-title {
+.perksAndBenefitsTab__col-title,
+.skillsTab__col-title {
     display: block;
     font-weight: 700;
     font-size: 20px;
@@ -1103,32 +1212,39 @@ page__skills .page__sub-heading ol, .page__skills .page__sub-heading p, .page__s
     color: #233dff;
 }
 
-.perksAndBenefitsTab ol, .perksAndBenefitsTab p, .perksAndBenefitsTab ul, .skillsTab ol, .skillsTab ul {
+.perksAndBenefitsTab ol,
+.perksAndBenefitsTab p,
+.perksAndBenefitsTab ul,
+.skillsTab ol,
+.skillsTab ul {
     line-height: 26px;
 }
 
 .perksAndBenefitsTab .bullet-disc,
 .skillsTab .bullet-disc {
     margin-left: 0.5rem;
-    margin-top: -0.35rem;  /* Adjust as needed */
-    margin-right: 0.5rem; /* Adjust as needed */
+    margin-top: -0.35rem;
+    /* Adjust as needed */
+    margin-right: 0.5rem;
+    /* Adjust as needed */
     padding: 4px;
     /* padding-right: -10px; */
 }
 
-.perksAndBenefitsTab__title, .skillsTab__title {
+.perksAndBenefitsTab__title,
+.skillsTab__title {
     display: block;
     margin: 10px 0 5px;
 }
 
-.skillsTab p{
+.skillsTab p {
     display: flex;
     margin-left: -29px;
     margin-right: 8px;
     /* margin: 5px; */
     justify-content: space-between;
     padding: 17px 9px;
-    
+
 }
 
 .react-tabs__tab-list {
@@ -1138,12 +1254,14 @@ page__skills .page__sub-heading ol, .page__skills .page__sub-heading p, .page__s
     overflow-x: auto;
 }
 
-.react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected, .react-tabs__tab-list li.react-tabs__tab--selected {
+.react-tabs__tab-list .react-tabs__tab.react-tabs__tab--selected,
+.react-tabs__tab-list li.react-tabs__tab--selected {
     font-weight: 700;
-    color:#233dff;
+    color: #233dff;
 }
 
-.react-tabs__tab-list .react-tabs__tab, .react-tabs__tab-list li {
+.react-tabs__tab-list .react-tabs__tab,
+.react-tabs__tab-list li {
     cursor: pointer;
     padding: 1rem;
     margin-right: 32px;
@@ -1158,7 +1276,8 @@ page__skills .page__sub-heading ol, .page__skills .page__sub-heading p, .page__s
 .react-tabs__tab-list li[data-rttab="true"]:nth-child(2):focus,
 .react-tabs__tab-list li[data-rttab="true"]:nth-child(2):active {
     font-weight: 700;
-    color: #233dff; /* Change to the desired blue color */
+    color: #233dff;
+    /* Change to the desired blue color */
 }
 
 /* Styles for the marker line when the "Technology-used" tab is selected */
@@ -1172,7 +1291,8 @@ page__skills .page__sub-heading ol, .page__skills .page__sub-heading p, .page__s
     left: 0;
     right: 0;
     height: 2px;
-    background-color: #233dff; /* Change to the desired blue color */
+    background-color: #233dff;
+    /* Change to the desired blue color */
 }
 
 
@@ -1190,11 +1310,12 @@ li {
     text-align: -webkit-match-parent;
 }
 
-.gutter-20x, .gutter-x-20x {
+.gutter-20x,
+.gutter-x-20x {
     --gutter-x: 5rem;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .skillsTab__col-3 {
         margin-bottom: 0;
     }
@@ -1209,7 +1330,8 @@ li {
     margin-right: -10px;
     padding: 18px 40px;
     padding-right: 16px;
-    flex-wrap: wrap; /* Prevent line breaks */
+    flex-wrap: wrap;
+    /* Prevent line breaks */
 }
 
 .skillsTab__card {
@@ -1224,14 +1346,14 @@ li {
 
 
 .skillsTab__card img {
-    
+
     height: 132px;
     width: 136px;
     margin-top: 1px;
     filter: brightness(1.02);
 }
 
-.skillsTab__card p{
+.skillsTab__card p {
     padding-left: 12px;
     margin-top: 1px;
     justify-content: space-between;
@@ -1254,7 +1376,7 @@ li {
 
 .skillsTab__col-4 {
     padding-right: 112px;
-    
+
 }
 
 .skillsTab__col-3 {
@@ -1266,14 +1388,14 @@ li {
     /* padding: 17px; */
 }
 
-.skillsTab__col-3 img{
+.skillsTab__col-3 img {
     margin-left: 5px;
     width: 64px;
     height: 48px;
     filter: brightness(1.10);
 }
 
-.skillsTab__col-3 .skillsTab__col-title{
+.skillsTab__col-3 .skillsTab__col-title {
     position: relative;
     padding: 3px;
 }
@@ -1288,7 +1410,7 @@ li {
 .craftingsuccess {
     display: inline-block;
     animation: rollAndSpinFromUp 1.35s ease-in-out forwards;
-  }
+}
 
 /*Teams css styling */
 
@@ -1300,14 +1422,14 @@ li {
     position: relative;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     .container--small {
         max-width: 1153px;
         margin: 0 auto;
-    }    
+    }
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1400px) {
     .container {
         width: 100%;
         /* max-width: 1300px; */
@@ -1324,8 +1446,9 @@ li {
 }
 
 .fade-in {
-    animation: fadeIn 1.5s ease-out forwards; /* Adjust the duration and easing as needed */
-  }
+    animation: fadeIn 1.5s ease-out forwards;
+    /* Adjust the duration and easing as needed */
+}
 
 .page__about-banner-header {
     max-width: 766px;
@@ -1348,7 +1471,9 @@ li {
     border-top: 1px solid #d9d9d9;
 }
 
-.page__about-banner ol, .page__about-banner p, .page__about-banner ul {
+.page__about-banner ol,
+.page__about-banner p,
+.page__about-banner ul {
     margin-bottom: 2.5rem;
 }
 
@@ -1364,7 +1489,7 @@ li {
     padding-right: -8px;
 }
 
-.page__ourteam{
+.page__ourteam {
     padding-top: 30px;
     margin-top: -10px;
     margin-left: -215px;
@@ -1382,12 +1507,14 @@ li {
     display: block;
 }
 
-.mb-8x, .my-8x {
-    margin-bottom: 2rem!important;
+.mb-8x,
+.my-8x {
+    margin-bottom: 2rem !important;
 }
 
-.mb-6x, .my-6x {
-    margin-bottom: 1.5rem!important;
+.mb-6x,
+.my-6x {
+    margin-bottom: 1.5rem !important;
 }
 
 /* We have put here  the css code styling for the <headings> Product of the <Products> <Navbar> */
@@ -1400,7 +1527,7 @@ li {
     margin-left: 79px;
 }
 
-.d-md-block{
+.d-md-block {
     margin-left: 5px;
     flex-wrap: nowrap;
     /* padding-right: 10px; */
@@ -1427,7 +1554,7 @@ li {
     font-weight: 700;
     margin-top: -416px;
     margin-left: 560px;
-    
+
 }
 
 .page__vision h3 {
@@ -1438,8 +1565,8 @@ li {
     padding-left: 10px;
     line-height: 1.5;
     letter-spacing: 1px;
-    
-   
+
+
 }
 
 .page__sub-heading {
@@ -1453,7 +1580,7 @@ li {
     font-weight: 700;
 }
 
-.fw-800{
+.fw-800 {
     padding-left: 555px;
     font-size: 1.12rem;
 }
@@ -1485,7 +1612,7 @@ li {
     height: 153px;
     border-top-left-radius: 30px;
     overflow: hidden;
-    
+
 }
 
 
@@ -1508,38 +1635,46 @@ li {
     display: block;
     white-space: nowrap;
 }
+
 /* Media responsiveness for the team.html */
 
 @media (max-width: 767px) {
+
     .page__about-banner-text-bold,
     .page__about-banner-text {
         display: inline-block;
         max-width: 100%;
-        margin-top: 2.5rem; /* Adjusted margin-top */
+        margin-top: 2.5rem;
+        /* Adjusted margin-top */
         margin-bottom: 10px;
-        padding-left: 10px; /* Adjusted padding values */
+        padding-left: 10px;
+        /* Adjusted padding values */
         padding-right: 10px;
         white-space: nowrap;
-        overflow: scroll; /* Adjusted padding values */
+        overflow: scroll;
+        /* Adjusted padding values */
     }
 }
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     .page__about-banner-image {
-        display: none;/* Remove border-radius on smaller screens */
+        display: none;
+        /* Remove border-radius on smaller screens */
     }
 }
 
 @media (max-width: 767px) {
     .section__heading {
-        font-size: 24px; /* Adjust the font size as needed */
+        font-size: 24px;
+        /* Adjust the font size as needed */
         margin-bottom: 1rem;
-        margin-left: 242px; /* Adjust the margin as needed */
+        margin-left: 242px;
+        /* Adjust the margin as needed */
     }
 
     .section__title {
         font-size: 18px;
-       padding-left: 5px;
+        padding-left: 5px;
         /* Adjust the font size as needed */
     }
 }
@@ -1555,22 +1690,23 @@ li {
     padding: 75px 0;
 }
 
-.page__contact-slogan{
+.page__contact-slogan {
     font-size: 25px;
     font-weight: 600;
 }
 
-.mb-0x, .my-0x {
-    margin-bottom: 0!important;
+.mb-0x,
+.my-0x {
+    margin-bottom: 0 !important;
 }
 
-.paragraph_type{
+.paragraph_type {
     position: relative;
     margin-top: 13px;
     margin-left: -21px;
     margin-right: 348px;
     padding: 3px 20px;
-    
+
 }
 
 .page__contact-form {
@@ -1596,9 +1732,11 @@ li {
         transform: translateY(-100%);
         opacity: 0;
     }
+
     50% {
         opacity: 1;
     }
+
     100% {
         transform: translateY(100%);
         opacity: 0;
@@ -1611,9 +1749,11 @@ li {
         -webkit-transform: translateY(-100%);
         opacity: 0;
     }
+
     50% {
         opacity: 1;
     }
+
     100% {
         -webkit-transform: translateY(100%);
         opacity: 0;
@@ -1621,14 +1761,16 @@ li {
 }
 
 .page__contact-form-left-col p {
-    margin-bottom: 5.670000000000002rem;  /* Add space between paragraphs */
+    margin-bottom: 5.670000000000002rem;
+    /* Add space between paragraphs */
 }
 
 .page__contact-form-left-col .arrowLink {
     margin-top: 16px;
 }
 
-.animatedIconButton, .arrowLink {
+.animatedIconButton,
+.arrowLink {
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -1644,7 +1786,7 @@ form {
 
 .form__group {
     margin-bottom: 34px;
-    
+
 }
 
 .form__label {
@@ -1670,7 +1812,8 @@ form {
 
 .form__input input {
     padding: 1.5rem 18px;
-    border: none;  /* Remove the inner border */
+    border: none;
+    /* Remove the inner border */
 }
 
 .form__textarea {
@@ -1679,7 +1822,7 @@ form {
     border-radius: 0;
     outline: none;
     border: 1px solid #333;
-    
+
 }
 
 .form__textarea textarea {
@@ -1694,19 +1837,25 @@ form {
 
 .button__bg {
     color: #fff;
-    background-color:#061bb0;
+    background-color: #061bb0;
     padding: 18px 24px;
 }
 
-[type=button], [type=reset], [type=submit], button {
+[type=button],
+[type=reset],
+[type=submit],
+button {
     -webkit-appearance: button;
 }
 
-button, input {
+button,
+input {
     overflow: visible;
 }
 
-button, input,  textarea {
+button,
+input,
+textarea {
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15;
@@ -1734,9 +1883,11 @@ button, input,  textarea {
     0% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.1);
     }
+
     100% {
         transform: scale(1);
     }
@@ -1771,8 +1922,10 @@ button, input,  textarea {
 .footer .the-basic li,
 .footer .the-basic h5,
 .footer .the-basic .companies ul li {
-    list-style-type: none; /* Remove list marker */
-    margin: 0; /* Reset any default margin */
+    list-style-type: none;
+    /* Remove list marker */
+    margin: 0;
+    /* Reset any default margin */
 }
 
 .footer .the-basic .companies ul li {
@@ -1797,11 +1950,13 @@ button, input,  textarea {
 }
 
 .footer .the-basic .copyright {
-    clear: both; /* Ensure the copyright appears below the images */
+    clear: both;
+    /* Ensure the copyright appears below the images */
     margin-top: 15px;
     padding-top: 71px;
     font-size: 16px;
-    font-weight: 500; /* Add margin to separate the copyright from the images */
+    font-weight: 500;
+    /* Add margin to separate the copyright from the images */
 }
 
 .footer .contact-us {
@@ -1813,7 +1968,8 @@ button, input,  textarea {
 .footer .contact-us h5,
 .footer .follow-us h5 {
     text-transform: uppercase;
-    margin-bottom: 10px; /* Add margin between the section title and the list items */
+    margin-bottom: 10px;
+    /* Add margin between the section title and the list items */
 }
 
 .footer .contact-us h5 {
@@ -1824,11 +1980,13 @@ button, input,  textarea {
 .footer .follow-us li {
     float: left;
     margin-right: 28px;
-    margin-bottom: 15px; /* Increase margin between list items */
+    margin-bottom: 15px;
+    /* Increase margin between list items */
 }
 
 .footer .follow-us li:last-child {
-    margin-right: 0; /* Remove right margin for the last list item */
+    margin-right: 0;
+    /* Remove right margin for the last list item */
 }
 
 .footer .follow-us .facebook,
@@ -1861,16 +2019,16 @@ button, input,  textarea {
     vertical-align: -0.125em;
 }
 
-.mark{
+.mark {
     margin: 3px;
     padding: 4px;
 }
 
-.mailed{
+.mailed {
     padding: 5px;
 }
 
-.number{
+.number {
     padding: 8px;
 }
 
@@ -1881,6 +2039,7 @@ button, input,  textarea {
         opacity: 0;
         transform: translateX(-3em);
     }
+
     100% {
         opacity: 1;
         transform: translateX(1);
@@ -1891,18 +2050,23 @@ button, input,  textarea {
     0% {
         width: 0;
     }
+
     50% {
         width: 100%;
     }
+
     100% {
         width: 100%;
     }
 }
 
 @keyframes blink-cursor {
-    from, to {
+
+    from,
+    to {
         border-color: transparent;
     }
+
     50% {
         border-color: #7350ff;
     }
@@ -1910,22 +2074,22 @@ button, input,  textarea {
 
 @keyframes rollAndSpinFromUp {
     0% {
-      transform: translateY(-50px) rotate(360deg);
-      opacity: 0;
+        transform: translateY(-50px) rotate(360deg);
+        opacity: 0;
     }
-    100% {
-      transform: translateY(0) rotate(0deg);
-      opacity: 1;
-    }
-  }
 
-@keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
     100% {
-      opacity: 1;
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
     }
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
 
+    100% {
+        opacity: 1;
+    }
+}
