@@ -600,7 +600,7 @@ nav {
 /* Page banner section starts from here */
 .page__banner {
     padding: 30px 0 50px;
-    margin-top: -52px;
+    margin-top: -20px;
 }
 
 .page__banner h1 {
@@ -994,6 +994,11 @@ h3 {
     padding: 2px -6px;
 }
 
+.your-trust,
+.innovation {
+    font-size: 5.5rem;
+}
+
 .content-left {
     display: inline-block;
     flex: 1;
@@ -1017,20 +1022,17 @@ h3 {
 
 .page__banner-video-iframe-wrapper {
     position: absolute;
-    width: 550px;
-    height: 720px;
+    width: 650px;
+    height: 400px;
     padding: 0;
-    margin-top: -466px;
-    margin-left: 630px;
+    margin-top: -550px;
+    margin-left: 580px;
 }
 
-.page__banner-video-warpper {
+.page__banner-video-iframe {
     border-bottom-left-radius: 55px;
     border-bottom-right-radius: -5px;
     overflow: hidden;
-    width: 100%;
-    max-height: 603px;
-    max-width: 638px;
     position: relative;
 }
 
