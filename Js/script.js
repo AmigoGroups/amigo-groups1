@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+<<<<<<< HEAD
   // This will start the video playing when the page loads
   startCounterAnimation();
 });
@@ -43,3 +44,24 @@ function playVideo() {
 }
 
 playVideo();
+=======
+  function playVideo() {
+    // get the video element and play it
+    var bannerVideo = document.getElementById("banner-video");
+    bannerVideo.play();
+
+    // add event listener after the video ends
+    bannerVideo.addEventListener("ended", function () {
+      bannerVideo.pause(); // pause the video
+
+      // resume the video after 3 seconds
+      setTimeout(() => {
+        bannerVideo.play();
+      }, 3000);
+    });
+  }
+
+  playVideo();
+  startCounterAnimation();
+});
+>>>>>>> b42092cd88c18dfdf12d080b792db8c4b49bbfb9
